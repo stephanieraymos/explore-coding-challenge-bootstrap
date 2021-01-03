@@ -1,0 +1,26 @@
+{
+  "name": "explore-coding-challenge-bootstrap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta1",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stephanieraymos/explore-coding-challenge-bootstrap.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stephanieraymos/explore-coding-challenge-bootstrap/issues"
+  },
+  "homepage": "https://github.com/stephanieraymos/explore-coding-challenge-bootstrap#readme"
+}
