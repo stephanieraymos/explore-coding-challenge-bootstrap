@@ -38,6 +38,20 @@ body {
     background: transparent;
     border: none;
 }
+
+.read-more-btn {
+    margin: 30px 10px 0 0;
+    border: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    font-size: 1em;
+    letter-spacing: .1em;
+    background-image: -webkit-linear-gradient(left, #611818, #B2B2B2);
+    background-image: -moz-linear-gradient(left, #611818, #B2B2B2);
+    background-image: -ms-linear-gradient(left, #611818, #B2B2B2);
+    background-image: -o-linear-gradient(left, #611818, #B2B2B2); 
+}
   
   h2{
     color: #611818;
