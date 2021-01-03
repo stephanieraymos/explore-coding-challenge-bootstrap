@@ -1,4 +1,7 @@
-html {
+
+
+body {
+    font-family: "Open San", sans-serif;
     height: 100%;
     background: #611818 url(../../img/trees.png) no-repeat center;
     -webkit-background-size: cover;
@@ -8,15 +11,10 @@ html {
     background-position: 100% 0;
     background-size: 75% 100%; 
     position: relative;
-}
-
-body {
-    font-family: "Open San", sans-serif;
+    overflow-x: hidden;
   }
 
   .explore {
-        bottom: 25%;
-        right: -8%;
         position: absolute;
         text-align: center top;
         width: 100%;
@@ -24,6 +22,8 @@ body {
         font-weight: bold;
         font-size: 15vh;
         color: white;
+        display: inline;
+        margin-top: 200px;
 }
   
   h2{
