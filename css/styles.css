@@ -1,0 +1,34 @@
+body {
+    font-family: "Open San", sans-serif;
+  }
+  
+  h1,h2,h3 {
+    font-family: "Lobster", cursive;
+  }
+  
+  h2{
+    color: #611818;
+  }
+  
+  header h2 {
+    color: #611818;
+  }
+  
+  .site-footer{
+    background-image: linear-gradient(#611818, white);
+    padding: 20px 0px;
+  }
+  
+  .row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+  }
+  
+  .navbar {
+    background-color: #611818;
+  }
+  
+  .navbar-dark {
+    background-color: #611818;
+  }
