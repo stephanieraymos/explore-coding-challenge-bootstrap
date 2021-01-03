@@ -32,6 +32,13 @@ body {
     font-weight: bold;
 }
 
+.moreDetails:focus,
+.facebook:focus,
+.instagram:focus {
+    border: none;
+    outline: none;
+}
+
 .close {
     border: none;
     background: transparent;
@@ -51,6 +58,7 @@ body {
     margin-left: -275px;
     background: transparent;
     border: none;
+    outline: none;
 }
 
 @media only screen and (min-width: 900px) {
