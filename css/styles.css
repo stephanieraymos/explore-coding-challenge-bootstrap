@@ -1,3 +1,13 @@
+html {
+    height: 100%;
+    background: #611818 url(../../img/trees.png) no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: 100% 0;
+    background-size: 75% 100%; }
+
 body {
     font-family: "Open San", sans-serif;
   }
@@ -13,11 +23,7 @@ body {
   header h2 {
     color: #611818;
   }
-  
-  .site-footer{
-    background-image: linear-gradient(#611818, white);
-    padding: 20px 0px;
-  }
+
   
   .row-content {
     padding: 50px 0;
