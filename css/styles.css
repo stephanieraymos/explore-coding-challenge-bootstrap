@@ -39,6 +39,27 @@ body {
     border: none;
 }
 
+@media only screen and (min-width: 900px) {
+    .moreDetails {
+        margin-left: -350px;
+    } 
+}
+@media only screen and (min-width: 1100px) {
+    .moreDetails {
+        margin-left: -450px;
+    } 
+}
+@media only screen and (min-width: 1300px) {
+    .moreDetails {
+        margin-left: -550px;
+    } 
+}
+@media only screen and (max-width: 700px) {
+    .moreDetails {
+        margin-left: -50px;
+    } 
+}
+
 .read-more-btn {
     margin: 30px 10px 0 0;
     border: none;
