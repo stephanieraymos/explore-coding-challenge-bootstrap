@@ -8,7 +8,6 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
     <!-- Additional CSS must be placed after Bootstrap CSS -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
     <link rel="stylesheet" href="css/styles.css" />
 
     <title>Explore</title>
@@ -18,65 +17,83 @@
 
     <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
         <div class="container">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-           <div class="collapse navbar-collapse" id="navbar">
-               <ul class="navbar-nav">
-                    <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-home fa-lg"></i> Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="explore.html><i class="fa plus fa-lg"></i> Explore</a></li>
-               </ul>
-               <span class="navbar-text ml-auto">
-                <a role="button" data-toggle="modal" data-target="#moreDetails">
-                <i class="fa fa-plus"></i> More Details</a>
-                </span>
-           </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-home fa-lg"></i> Home</a>
+                    </li>
+                    <li class="nav-item nav-link" id="explore-menu">Explore</li>
+                </ul>
+            </div>
         </div>
     </nav>
 
+    <div class="container-fluid main-cont">
 
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <h1 class="explore">Explore</h1>
-                <button id="button" class="moreDetails"><img src="img/Plus.svg" alt="Plus"> More Details</button>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1 class="explore">Explore</h1>
+                    <button id="button" class="moreDetails"><img src="img/Plus.svg" alt="Plus"> More Details</button>
+                </div>
             </div>
         </div>
-    </div>
 
 
-    <!-- MODAL -->
-    <div id="moreDetails" class="modal fade" role="dialog">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h3 class="modal-title">Explore </h3>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                </div>
-                <div class="modal-body">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <p>I hope you enjoyed going over my code challenge. I think you should choose me for this position, not just because I'm qualified, but more so because I'm driven, probably more driven than anyone you've ever met. I will dedicate myself to your company in a way that will not only prove loyalty, but results that exceed expectations.</p>
-                            <button type="submit" class="btn btn-sm ml-1 read-more-btn">READ MORE</button>
+        <!-- MODAL -->
+        <div id="moreDetails" class="modal fade" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title">Explore </h3>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <p>I hope you enjoyed going over my code challenge. I think you should choose me for
+                                    this position, not just because I'm qualified, but more so because I'm driven,
+                                    probably more driven than anyone you've ever met. I will dedicate myself to your
+                                    company in a way that will not only prove loyalty, but results that exceed
+                                    expectations.</p>
+                                <button type="submit" class="btn btn-sm ml-1 read-more-btn">READ MORE</button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
+        <div class="float-right">
+        <div class="container btn-container">
+            <div class="row">
+                <div class="col">
+                    <button class="facebook-btn"><img src="img/Facebook.svg" alt="Facebook"></button>
+                </div>
+                <div class=row>
+                    <div class="col">
+                        <button class="instagram-btn"><img src="img/Instagram.svg" alt="Instagram"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+</div>
 
 
+    <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="index.js"></script>
 
-  <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
-  <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-  <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-  <script src="index.js"></script>
-
-<script>
-    $(function () {
-        $('[data-toggle="tooltip"]').tooltip()
-    })
-</script>
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
 </body>
+
 </html>

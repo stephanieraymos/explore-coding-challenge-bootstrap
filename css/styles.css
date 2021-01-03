@@ -14,6 +14,10 @@ body {
     overflow-x: hidden;
   }
 
+.main-cont {
+    position: relative;
+}
+
 .explore {
     position: absolute;
     width: 100%;
@@ -73,22 +77,35 @@ body {
     background-image: -ms-linear-gradient(left, #611818, #B2B2B2);
     background-image: -o-linear-gradient(left, #611818, #B2B2B2); 
 }
-  
-  h2{
-    color: #611818;
-  }
 
-  
-  .row-content {
-    padding: 50px 0;
-    border-bottom: 1px ridge;
-    min-height: 200px;
-  }
-  
-  .navbar {
-    background-color: #611818;
-  }
-  
-  .navbar-dark {
-    background-color: #611818;
-  }
+
+
+.btn-container {
+    font-size: 30px;
+    position: absolute;
+    float: right;
+}
+
+.facebook-btn {
+    background-color: transparent;
+    border: none;
+}
+
+.instagram-btn {
+    background-color: transparent;
+    border: none;
+}
+
+.row-content {
+padding: 50px 0;
+border-bottom: 1px ridge;
+min-height: 200px;
+}
+
+.navbar {
+background-color: #611818;
+}
+
+.navbar-dark {
+background-color: #611818;
+}

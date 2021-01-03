@@ -17,4 +17,12 @@ $("#button").click(function(){
         $("#moreDetails").modal("hide");
     
       });
+
+  //explore menu option modal show
+$("#explore-menu").click(function(){
+    $("#moreDetails").modal("show");
+    // if ($(".close").modal("hide"));
+ //moreDetails button modal hide
   });
+
+});
