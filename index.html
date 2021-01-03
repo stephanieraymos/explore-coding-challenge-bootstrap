@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
     <!-- Additional CSS must be placed after Bootstrap CSS -->
     <link rel="stylesheet" href="css/styles.css" />
-
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <title>Explore</title>
 </head>
 
@@ -30,13 +31,15 @@
         </div>
     </nav>
 
-    <div class="container-fluid main-cont">
+    
+    <!-- Main container -->
+    <div class="container-fluid d-flex align-items-end main-cont">
 
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <h1 class="explore">Explore</h1>
-                    <button id="button" class="moreDetails"><img src="img/Plus.svg" alt="Plus"> More Details</button>
+                    <h1 class="explore" data-aos="fade-right">Explore</h1>
+                    <button id="button" class="moreDetails" data-aos="fade-left"><img src="img/Plus.svg" alt="Plus"> More Details</button>
                 </div>
             </div>
         </div>
@@ -66,21 +69,22 @@
             </div>
         </div>
 
-        <div class="float-right">
-        <div class="container btn-container">
-            <div class="row">
-                <div class="col">
-                    <button class="facebook-btn"><img src="img/Facebook.svg" alt="Facebook"></button>
+
+        
+            <!-- Facebook and instagram buttons -->
+            <div class="flex-row">
+                <div class="flex-column">
+                    <button class="facebook-btn p-2 mt-auto"><img src="img/Facebook.svg" alt="Facebook"></button>
                 </div>
                 <div class=row>
-                    <div class="col">
-                        <button class="instagram-btn"><img src="img/Instagram.svg" alt="Instagram"></button>
+                    <div class="flex-column">
+                        <button class="instagram-btn p-2 mt-auto"><img src="img/Instagram.svg" alt="Instagram"></button>
                     </div>
                 </div>
             </div>
+
         </div>
-    </div>
-</div>
+
 
 
     <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
@@ -88,6 +92,11 @@
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="index.js"></script>
+
+    <script>
+        AOS.init({
+        });
+      </script> 
 
     <script>
         $(function () {

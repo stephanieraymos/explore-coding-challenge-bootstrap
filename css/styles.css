@@ -78,13 +78,25 @@ body {
     background-image: -o-linear-gradient(left, #611818, #B2B2B2); 
 }
 
+/* .main-cont {
+    align-content: bottom;
+} */
 
-
-.btn-container {
+/* .btn-container {
     font-size: 30px;
     position: absolute;
     float: right;
-}
+} */
+
+/* .btn-row {
+    flex-direction: row;
+    justify-content: end;
+} */
+
+/* .btn-col {
+    flex-direction: column;
+    align-items: flex-end;
+} */
 
 .facebook-btn {
     background-color: transparent;
