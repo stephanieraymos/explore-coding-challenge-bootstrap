@@ -1,4 +1,3 @@
-//carousel pause and play
 $(function() {
 
 //moreDetails button modal show
