@@ -108,6 +108,28 @@ body {
   border: none;
 }
 
+.bottom-btns {
+  height: 500px;
+}
+
+@media only screen and (max-width: 576px) {
+  .bottom-btns {
+    height: 450px;
+  }
+}
+
+@media only screen and (min-width: 577px) {
+  .bottom-btns {
+    height: 500px;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .bottom-btns {
+    height: 550px;
+  }
+}
+
 .navbar .navbar-dark {
   background-color: #611818;
 }
