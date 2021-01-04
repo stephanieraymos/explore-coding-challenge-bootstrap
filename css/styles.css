@@ -1,127 +1,123 @@
-
-
 body {
-    font-family: "Open San", sans-serif;
-    height: 100%;
-    background: #611818 url(../../img/trees.png) no-repeat center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position: 100% 0;
-    background-size: 75% 100%; 
-    position: relative;
-    overflow-x: hidden;
-  }
+  font-family: "Open San", sans-serif;
+  height: 100%;
+  background: #611818 url(../../img/trees.png) no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: 100% 0;
+  background-size: 75% 100%;
+  position: relative;
+  overflow-x: hidden;
+}
 
 .explore {
-    position: absolute;
-    width: 100%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 15vh;
-    color: white;
-    display: inline;
-    margin-top: 200px;
+  position: absolute;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 15vh;
+  color: white;
+  display: inline;
+  margin-top: 200px;
 }
 
 .modal-title {
-    color: #611818;
-    font-size: 10vh;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
+  color: #611818;
+  font-size: 10vh;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
 }
 
 .moreDetails:focus,
 .facebook:focus,
 .instagram:focus {
-    border: none;
-    outline: none;
+  border: none;
+  outline: none;
 }
 
 .close {
-    border: none;
-    background: transparent;
-    font-size: 3em;
-    color: #611818;
+  border: none;
+  background: transparent;
+  font-size: 3em;
+  color: #611818;
 }
 
 .moreDetails {
-    position: absolute;
-    width: 100%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 5vh;
-    color: white;
-    display: inline;
-    margin-top: 300px;
-    margin-left: -275px;
-    background: transparent;
-    border: none;
-    outline: none;
+  position: absolute;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 5vh;
+  color: white;
+  display: inline;
+  margin-top: 300px;
+  margin-left: -275px;
+  background: transparent;
+  border: none;
+  outline: none;
 }
 
 @media only screen and (min-width: 900px) {
-    .moreDetails {
-        margin-left: -350px;
-    } 
+  .moreDetails {
+    margin-left: -350px;
+  }
 }
 @media only screen and (min-width: 1100px) {
-    .moreDetails {
-        margin-left: -450px;
-    } 
+  .moreDetails {
+    margin-left: -450px;
+  }
 }
 @media only screen and (min-width: 1300px) {
-    .moreDetails {
-        margin-left: -550px;
-    } 
+  .moreDetails {
+    margin-left: -550px;
+  }
 }
 @media only screen and (max-width: 700px) {
-    .moreDetails {
-        margin-left: -50px;
-    } 
+  .moreDetails {
+    margin-left: -50px;
+  }
 }
 
 .read-more-btn {
-    margin: 30px 10px 0 0;
-    border: none;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 20px;
-    font-size: 1em;
-    letter-spacing: .1em;
-    background-image: -webkit-linear-gradient(left, #611818, #B2B2B2);
-    background-image: -moz-linear-gradient(left, #611818, #B2B2B2);
-    background-image: -ms-linear-gradient(left, #611818, #B2B2B2);
-    background-image: -o-linear-gradient(left, #611818, #B2B2B2); 
+  margin: 30px 10px 0 0;
+  border: none;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+  font-size: 1em;
+  letter-spacing: 0.1em;
+  background-image: -webkit-linear-gradient(left, #611818, #b2b2b2);
+  background-image: -moz-linear-gradient(left, #611818, #b2b2b2);
+  background-image: -ms-linear-gradient(left, #611818, #b2b2b2);
+  background-image: -o-linear-gradient(left, #611818, #b2b2b2);
 }
 
-
-.flex-container{
-    min-height: 100vh;
-    }
-
+.flex-container {
+  min-height: 100vh;
+}
 
 .facebook-btn {
-    background-color: transparent;
-    border: none;
+  background-color: transparent;
+  border: none;
 }
 
 .instagram-btn {
-    background-color: transparent;
-    border: none;
+  background-color: transparent;
+  border: none;
 }
 
 .row-content {
-padding: 50px 0;
-border-bottom: 1px ridge;
-min-height: 200px;
+  padding: 50px 0;
+  border-bottom: 1px ridge;
+  min-height: 200px;
 }
 
 .navbar {
-background-color: #611818;
+  background-color: #611818;
 }
 
 .navbar-dark {
-background-color: #611818;
+  background-color: #611818;
 }
